@@ -1,0 +1,88 @@
+.navbar {
+  background-color: var(--blue);
+  padding: 10px 30px !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-images-container {
+  display: flex;
+}
+
+.nav-logo,
+.nav-service-center,
+.nav-napa-logo {
+  width: auto;
+  height: 70px;
+}
+
+.nav-location-link {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-location {
+  width: 60px;
+  height: 60px;
+  fill: var(--yellow);
+}
+
+.nav-address {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-address a {
+  color: var(--yellow);
+  font-size: 16pt;
+  text-decoration: none;
+}
+
+.nav-book-app {
+  width: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-book-app a {
+  color: var(--yellow);
+  font-size: 16pt;
+  text-decoration: none;
+}
+
+.nav-cart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-cart {
+  width: 40px;
+  height: 40px;
+  fill: var(--yellow);
+}
+
+.cart-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.items-in-cart {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -15px;
+  right: -20px;
+}

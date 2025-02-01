@@ -1,0 +1,39 @@
+.admin-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-login-form {
+  width: 100%;
+  padding: 10px;
+}
+
+.login-submit-btn {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  transition: 200ms;
+}
+
+.login-submit-btn:hover {
+  background-color: var(--blue-hover);
+}
+
+.admin-logout-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 20px;
+  transition: 200ms;
+}
+
+.admin-logout-btn:hover {
+  background-color: var(--yellow-hover);
+}

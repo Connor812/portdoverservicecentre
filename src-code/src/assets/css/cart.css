@@ -1,0 +1,132 @@
+.cart-container {
+  display: flex;
+  position: relative;
+  padding: 20px;
+}
+
+.cart-header {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.cart-items-container {
+  width: 70%;
+}
+
+.cart-table-headings {
+  background-color: var(--blue);
+  margin: 0 !important;
+  font-size: var(--small);
+  color: var(--white);
+  border: 1px solid var(--black);
+  position: sticky;
+  top: 0;
+}
+
+.cart-table-headings div {
+  padding: 5px;
+  margin: 0;
+}
+
+.cart-item {
+  margin: 0 !important;
+  border: 1px solid var(--black);
+  padding-bottom: 10px !important;
+}
+
+.cart-image-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: auto;
+}
+
+.cart-product-img {
+  max-width: 200px;
+  height: auto;
+  max-height: 92px;
+}
+
+.cart-item-info {
+  padding-left: 10px;
+}
+
+.cart-item-name {
+  margin: 0;
+  color: var(--blue);
+}
+
+.remove-from-cart-btn {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  color: var(--red);
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.cart-quantity-btn {
+  background: none;
+  border: none;
+  color: var(--blue);
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-subtotal {
+  display: flex;
+  align-items: center;
+}
+
+.cart-total-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid var(--black);
+  position: sticky;
+  top: 0;
+  height: fit-content;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-total {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.checkout-btn {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 7px 30px;
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 15px;
+  transition: 200ms;
+}
+
+.checkout-btn:hover {
+  background-color: var(--blue-hover);
+}

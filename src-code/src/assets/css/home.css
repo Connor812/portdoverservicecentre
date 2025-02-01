@@ -1,0 +1,154 @@
+.home-main {
+  width: 100%;
+  max-width: 1920px;
+  flex: 1;
+}
+
+.home-message {
+  font-size: 32pt;
+  text-align: center;
+  padding: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .home-message {
+    font-size: 24pt;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .home-message {
+    font-size: 18pt;
+  }
+}
+
+.list-of-services-wrapper {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.list-of-services-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-of-services {
+  color: var(--blue);
+  list-style: none;
+  margin: 0;
+  padding: 30px;
+  font-size: 14pt;
+}
+
+.list-of-services.start {
+  text-align: end;
+}
+
+.list-of-services.end {
+  text-align: start !important;
+}
+
+.home-page-image {
+  flex: 1;
+  height: 400px;
+}
+.home-page-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.advertisement-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.home-img {
+  width: 100%;
+}
+
+.products-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 !important;
+}
+
+.square-item {
+  flex: 0 0 auto;
+  height: 250px;
+  border: 2px solid var(--blue);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.square-item-name {
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0.542);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  white-space: nowrap; /* Prevents text wrapping */
+  overflow: hidden; /* Hides overflowing text */
+  text-overflow: ellipsis; /* Adds ellipsis (...) for overflowing text */
+}
+
+.buy-button {
+  position: absolute;
+  bottom: 5px;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  padding: 5px 0;
+  font-size: 13pt;
+  text-align: center;
+  text-decoration: none;
+}
+
+.square-items-wrapper {
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.product-banner {
+  width: 100%;
+  height: 80px;
+  background-color: var(--blue);
+  color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32pt;
+  margin-bottom: 25px;
+}
+
+.home-signup-modal .modal-dialog {
+  max-width: 600px;
+}
+
+.home-signup-modal .modal-content {
+  border-radius: 40px;
+  border: 2px solid black;
+}
+
+.modal-signup-btn {
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 40px;
+  font-size: 16pt;
+  transition: 200ms;
+}
+
+.modal-signup-btn:hover {
+  background-color: var(--blue-hover);
+}

@@ -1,0 +1,53 @@
+.footer {
+  background-color: var(--blue);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-images-container {
+  display: flex;
+}
+
+.footer-logo,
+.footer-service-center,
+.footer-napa-logo {
+  width: auto;
+  height: 70px;
+}
+
+.footer-location-link {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-location {
+  width: 60px;
+  height: 60px;
+  fill: var(--yellow);
+}
+
+.footer-address {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-address a {
+  color: var(--yellow);
+  font-size: 16pt;
+  text-decoration: none;
+}
+
+.footer-book-app {
+  color: var(--yellow);
+  font-size: 16pt;
+  width: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}

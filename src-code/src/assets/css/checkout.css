@@ -1,0 +1,80 @@
+.checkout-cart-total {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid var(--black);
+  font-size: var(--medium);
+  text-align: start;
+  padding: 20px;
+}
+
+.checkout-prices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 10px;
+}
+
+.checkout-options {
+  display: flex;
+  gap: 10px;
+}
+
+.shipping-form-info,
+.pickup-form-info {
+  width: 100%;
+}
+
+.checkout-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid var(--black);
+}
+
+.proceed-to-payment-btn {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  max-width: 600px;
+  padding: 7px 30px;
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 15px;
+  transition: 200ms;
+}
+
+.proceed-to-payment-btn:hover {
+  background-color: var(--blue-hover);
+}
+
+#rswps-form {
+  width: 100%;
+  height: auto !important;
+}
+
+#rswp-card-button {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  max-width: 600px;
+  padding: 7px 30px;
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 15px;
+  transition: 200ms;
+  margin-bottom: 20px;
+}
+
+#rswp-card-button:hover {
+  background-color: var(--blue-hover);
+}

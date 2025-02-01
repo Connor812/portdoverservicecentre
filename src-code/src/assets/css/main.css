@@ -1,0 +1,34 @@
+:root {
+  --black: #000000;
+  --red: #ff0000;
+  --blue: #0d2984;
+  --blue-hover: #1237af;
+  --yellow: #f6ac0e;
+  --yellow-hover: #d2930b;
+  --white: #ffffff;
+}
+
+body,
+html,
+#root {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  max-width: 1920px;
+}

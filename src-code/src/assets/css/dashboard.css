@@ -1,0 +1,33 @@
+.preview-btn-container {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.preview-btn,
+.send-btn {
+  padding: 10px 20px;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14pt;
+  transition: 200ms;
+}
+
+.preview-btn:hover,
+.send-btn:hover {
+  background-color: var(--blue-hover);
+}
+
+.editor-wrapper {
+  padding: 20px;
+}
+
+.editor-container {
+  border: 2px solid black;
+}
+
+.preview-modal .modal-dialog {
+  max-width: 90%;
+}
