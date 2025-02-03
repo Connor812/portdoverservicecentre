@@ -33,13 +33,15 @@ function AppContent() {
       <Helmet>
         <title>Port Dover's Service Centre</title>
         <meta name="description" content="Port Dover's Service Centre. It's an auto shop." />
-        <link rel="icon" href="" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
       </Helmet>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product/:id" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/thankyou" element={<Thankyou />} />
         <Route path="/thankyou/:id" element={<Thankyou />} />
         <Route path="/admin" element={<Login />} />
         <Route path="/admin/:error" element={<Login />} />

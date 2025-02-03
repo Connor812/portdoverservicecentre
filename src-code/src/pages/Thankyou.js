@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { FaCopy } from "react-icons/fa";
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import '../assets/css/thankyou.css';
 
 function Thankyou() {
@@ -32,6 +33,7 @@ function Thankyou() {
                     </button>
                 </center>
             </div>
+            <Footer />
         </main >
     );
 }

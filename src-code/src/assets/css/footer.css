@@ -2,6 +2,17 @@
   background-color: var(--blue);
   padding: 10px;
   display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -49,5 +60,40 @@
   width: auto;
   display: flex;
   align-items: center;
+  text-align: center;
+}
+
+.nav-book-app a {
+  display: flex;
+  align-items: center;
+}
+
+.calendar-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.calendar-icon-container {
+  margin-right: 10px;
+}
+
+.footer-service-list {
+  color: var(--white);
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.footer-map {
+  flex: 1;
+}
+
+.footer-open-time {
+  color: var(--white);
+  font-size: 16pt;
   text-align: center;
 }

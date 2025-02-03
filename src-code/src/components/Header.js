@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { TbCalendarCheck } from "react-icons/tb";
 import "../assets/css/header.css";
 
 import { IoLocationSharp } from "react-icons/io5";
@@ -31,7 +32,9 @@ function Header() {
     return (
         <nav className='navbar'>
             <div className='nav-images-container'>
-                <img className="nav-logo" src="/assets/images/md-auto-logo.png" alt="Logo" />
+                <Link to="/">
+                    <img className="nav-logo" src="/assets/images/md-auto-logo.png" alt="Logo" />
+                </Link>
                 <img className="nav-service-center" src="/assets/images/service-center-logo.png" alt="Service Center" />
                 <img className="nav-napa-logo" src="/assets/images/napa-logo.png" alt="NAPA Logo" />
                 <div className='nav-location-link'>
@@ -47,8 +50,13 @@ function Header() {
 
             <div className='nav-book-app'>
                 <a href="https://portdoverservicecentre.mechanicnet.com/apps/shops/display?page=appointment">
-                    Book <br />
-                    Appointment
+                    <div className='calendar-icon-container'>
+                        <TbCalendarCheck className='calendar-icon' />
+                    </div>
+                    <div>
+                        Book <br />
+                        Appointment
+                    </div>
                 </a>
             </div>
 
@@ -62,7 +70,7 @@ function Header() {
                     }
                 </Link>
             </div>
-        </nav>
+        </nav >
     );
 }
 

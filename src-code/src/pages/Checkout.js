@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
 import { Spinner, Alert } from 'react-bootstrap';
 import { PaymentForm, CreditCard } from "react-square-web-payments-sdk";
@@ -525,6 +526,7 @@ function Checkout() {
                         <button className='proceed-to-payment-btn my-3' ref={proceedToPaymentRef} onClick={handleSubmit}>{proceedToPayment}</button>
                     </center>
                 </center>
+                <Footer />
             </main>
         );
     } else if (stage === "payment") {
@@ -568,6 +570,7 @@ function Checkout() {
                         </section>
                     </section>
                 </center>
+                <Footer />
             </main>
         )
     }

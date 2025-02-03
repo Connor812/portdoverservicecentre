@@ -25,6 +25,12 @@
 .list-of-services-wrapper {
   display: flex;
   margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.home-page-img {
+  width: 100%;
+  aspect-ratio: 1720 / 731;
 }
 
 .list-of-services-container {
@@ -52,6 +58,7 @@
   flex: 1;
   height: 400px;
 }
+
 .home-page-image img {
   width: 100%;
   height: 100%;
@@ -71,8 +78,6 @@
 }
 
 .products-container {
-  padding-left: 20px;
-  padding-right: 20px;
   margin: 0 !important;
 }
 
@@ -94,9 +99,12 @@
   width: 100%;
   text-align: center;
   padding: 10px 0;
-  white-space: nowrap; /* Prevents text wrapping */
-  overflow: hidden; /* Hides overflowing text */
-  text-overflow: ellipsis; /* Adds ellipsis (...) for overflowing text */
+  white-space: nowrap;
+  /* Prevents text wrapping */
+  overflow: hidden;
+  /* Hides overflowing text */
+  text-overflow: ellipsis;
+  /* Adds ellipsis (...) for overflowing text */
 }
 
 .buy-button {

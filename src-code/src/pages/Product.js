@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { Col, Row, Spinner, DropdownButton, Dropdown } from "react-bootstrap";
 import { TiArrowLeftThick } from "react-icons/ti";
 import { PostData } from "../utils/PostData";
@@ -82,9 +83,6 @@ function Product() {
 
         // Update the button state
         setAddToCartBtn(<BsCartCheck />);
-        setTimeout(() => {
-            setAddToCartBtn("Add To Cart");
-        }, 2000);
     }
 
     return (
@@ -159,6 +157,7 @@ function Product() {
                     </section>
                 )}
             </main >
+            <Footer />
         </>
     );
 }

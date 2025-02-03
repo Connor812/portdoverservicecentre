@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { Link, useNavigate } from "react-router-dom";
 import { Row, Col, Alert } from "react-bootstrap";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
@@ -60,7 +61,7 @@ function Cart() {
         const updatedCartItems = cartItems.filter(item => item.id !== id);
         setCartItems(updatedCartItems);
         localStorage.setItem("cart", JSON.stringify(updatedCartItems));
-        
+
         // Recalculate HST
         const newHst = updatedCartItems.reduce((acc, cartItem) => {
             if (cartItem.is_taxable) {
@@ -161,6 +162,7 @@ function Cart() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </main>
     );
 }

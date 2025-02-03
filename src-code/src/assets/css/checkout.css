@@ -5,6 +5,7 @@
   font-size: var(--medium);
   text-align: start;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .checkout-prices {

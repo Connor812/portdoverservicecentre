@@ -109,45 +109,9 @@ function Home() {
                         "We have been the local garage in Port Dover since 1994
                         <br /> helping generations of our neighbors with reliable service."
                     </p>
+
                     <div className='list-of-services-wrapper'>
-                        <div className='list-of-services-container'>
-                            <ul className='list-of-services start'>
-                                <li>Oil & Filter Change</li>
-                                <li>Vehicle Health Inspection</li>
-                                <li>Filters</li>
-                                <li>Brakes</li>
-                                <li>Tires & Wheels</li>
-                                <li>Wheel Alignment</li>
-                                <li>Safety Checks</li>
-                                <li>Maintenance Tune-Up</li>
-                                <li>Fluid Exchanges</li>
-                                <li>Belts & Hoses</li>
-                                <li>Fleet Maintenance</li>
-                                <li>Wiper Blade Replacement</li>
-                                <li>Headlights</li>
-                            </ul>
-                        </div>
-                        <div className='home-page-image'>
-                            <img src="/assets/images/garage.png" alt="garage" />
-                        </div>
-                        <div className='list-of-services-container'>
-                            <ul className='list-of-services end'>
-                                <li>Brake Repair</li>
-                                <li>Tires & Wheels Replacement</li>
-                                <li>Check Warning Lights</li>
-                                <li>Diagnostic Testing</li>
-                                <li>Steering & Front-End Repairs</li>
-                                <li>Suspension Repairs</li>
-                                <li>Air Conditioning & Heating</li>
-                                <li>Radiator & Hose Repairs</li>
-                                <li>Mufflers & Exhaust</li>
-                                <li>Battery Replacement</li>
-                                <li>Transmission & Drive-Train</li>
-                                <li>Fuel System Repairs</li>
-                                <li>Trailer Installation</li>
-                                <li>Electrical</li>
-                            </ul>
-                        </div>
+                        <img className='home-page-img' src="/assets/images/garage.png" alt="garage" />
                     </div>
 
                     <div className='advertisement-container'>
